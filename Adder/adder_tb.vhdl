@@ -1,3 +1,10 @@
+-- Author: GHDL.free.fr
+-- Date: Unknown
+-- Title: Full Adder
+-- Code Version: N/A
+-- Type: N/A
+-- Availability: http://ghdl.free.fr/ghdl/A-full-adder.html
+
 library ieee;
 use ieee.std_logic_1164.all;
 

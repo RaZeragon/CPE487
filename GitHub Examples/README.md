@@ -3,7 +3,7 @@ Code for GitHub examples for simple VHDL projects provided by Professor Lu and a
 
 **More Information:** https://github.com/kevinwlu/dsd/tree/master/ghdl
 
-# Examples
+## Examples
 - Half Adder
 - Full Adder
 - D Flip-flop

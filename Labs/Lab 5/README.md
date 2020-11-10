@@ -1,7 +1,7 @@
 # Lab 5: DAC Siren
 Generate a wailing audio siren using a Inter-IC Sound (I2S) DAC with a speaker or headphone connected to port JA.
 
-**More Information** https://github.com/kevinwlu/dsd/tree/master/Nexys-A7/Lab-5
+**More Information:** https://github.com/kevinwlu/dsd/tree/master/Nexys-A7/Lab-5
 
 ## Original
 Generates wailing triangle wave at specific pitch range and wailing speed.

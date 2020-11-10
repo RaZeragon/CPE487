@@ -1,7 +1,7 @@
 # Lab 4: Hex Calculator
 Function as a hexadecimal calculator capable of performing addition and subtraction on four-digit hexadecimal numbers using the 16-button keypad module connected to port JA.
 
-**More Information** https://github.com/kevinwlu/dsd/tree/master/Nexys-A7/Lab-4
+**More Information:** https://github.com/kevinwlu/dsd/tree/master/Nexys-A7/Lab-4
 
 ## Original
 Instructions:

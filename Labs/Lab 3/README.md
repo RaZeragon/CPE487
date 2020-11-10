@@ -2,7 +2,7 @@
 Display a "bouncing ball" on a 800x600 VGA monitor. 
 2019-11-03 pull request by Peter Ho with the 800x600@60Hz support for 100MHz clock.
 
-**More Information** https://github.com/kevinwlu/dsd/tree/master/Nexys-A7/Lab-3
+**More Information:** https://github.com/kevinwlu/dsd/tree/master/Nexys-A7/Lab-3
 
 ## Original
 Display a rectangle of specified shape and color originally centered on the display that moves vertically with constant velocity and bounces off the top and bottom section of the screen.

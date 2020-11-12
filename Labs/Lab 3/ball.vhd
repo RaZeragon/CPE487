@@ -38,9 +38,9 @@ BEGIN
 	BEGIN
 		IF (pixel_col >= ball_x - size) AND
 		    (pixel_col <= ball_x + size) AND
-			(pixel_row >= ball_y - size) AND
-			(pixel_row <= ball_y + size) THEN
-			ball_on <= '1';
+		    (pixel_row >= ball_y - size) AND
+		    (pixel_row <= ball_y + size) THEN
+		    ball_on <= '1';
 		ELSE
 			ball_on <= '0';
 		END IF;

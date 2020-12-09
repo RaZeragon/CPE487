@@ -17,3 +17,6 @@ Function as a hexadecimal calculator capable of performing addition and subtract
 
 ## Lab 5: DAC Siren
 Generate a wailing audio siren using a Inter-IC Sound (I2S) DAC with a speaker or headphone connected to port JA.
+
+## Lab 6: Pong
+Generate a PONG game on an 800x600 VGA display using a 5kΩ potentiometer with ADC to control the paddle.

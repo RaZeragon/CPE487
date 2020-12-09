@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2020.1.1 (64-bit)
+# SW Build 2960000 on Wed Aug  5 22:57:20 MDT 2020
+# IP Build 2956692 on Thu Aug  6 01:41:30 MDT 2020
+# Start of session at: Thu Dec  3 01:00:03 2020
+# Process ID: 11456
+# Current directory: C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/FinalProject/tictactoe
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent20696 C:\Users\Kevin Ward\Desktop\Coding\Projects\CPE487\FinalProject\tictactoe\tictactoe.xpr
+# Log file: C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/FinalProject/tictactoe/vivado.log
+# Journal file: C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/FinalProject/tictactoe\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/FinalProject/tictactoe/tictactoe.xpr}
+update_compile_order -fileset sources_1

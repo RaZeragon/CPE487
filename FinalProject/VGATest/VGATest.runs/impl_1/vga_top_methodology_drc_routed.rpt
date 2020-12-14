@@ -1,7 +1,7 @@
 Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2020.1.1 (win64) Build 2960000 Wed Aug  5 22:57:20 MDT 2020
-| Date         : Mon Dec 14 10:34:29 2020
+| Date         : Mon Dec 14 12:16:26 2020
 | Host         : RaZeragon running 64-bit major release  (build 9200)
 | Command      : report_methodology -file vga_top_methodology_drc_routed.rpt -pb vga_top_methodology_drc_routed.pb -rpx vga_top_methodology_drc_routed.rpx
 | Design       : vga_top
@@ -23,20 +23,12 @@ Table of Contents
           Floorplan: design_1
       Design limits: <entire design considered>
              Max violations: <unlimited>
-             Violations found: 1
-+--------+----------+-----------------------------------+------------+
-| Rule   | Severity | Description                       | Violations |
-+--------+----------+-----------------------------------+------------+
-| XDCB-2 | Warning  | Clock defined on multiple objects | 1          |
-+--------+----------+-----------------------------------+------------+
+             Violations found: 0
++------+----------+-------------+------------+
+| Rule | Severity | Description | Violations |
++------+----------+-------------+------------+
++------+----------+-------------+------------+
 
 2. REPORT DETAILS
 -----------------
-XDCB-2#1 Warning
-Clock defined on multiple objects  
-The clock sys_clk_pin is defined on multiple objects. Although this is logically functional for timing analysis, it cannot exist in hardware. It is recommended to define a primary clock on a single object.
-create_clock -period 40.000 -name sys_clk_pin -waveform {0.000 5.000} -add [get_ports clk_in]
-C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/FinalProject/VGATest/VGATest.srcs/constrs_1/new/vga_top.xdc (Line: 3)
-Related violations: <none>
-
 

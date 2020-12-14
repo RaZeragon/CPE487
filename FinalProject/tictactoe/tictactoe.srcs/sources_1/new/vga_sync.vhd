@@ -45,6 +45,7 @@ BEGIN
 		ELSE
 			h_cnt <= h_cnt + 1;
 		END IF;
+        
         -- Pull down hsync after front porch
 		IF (h_cnt >= H + H_FP) AND (h_cnt <= H + H_FP + H_SYNC) THEN
 			hsync <= '0';
@@ -62,6 +63,7 @@ BEGIN
 		ELSE
 			vsync <= '1';
 		END IF;
+		
 		-- Generate Video Signals and Pixel Address
 		IF (h_cnt < H) AND (v_cnt < V) THEN  
 			video_on := '1';
@@ -70,6 +72,7 @@ BEGIN
 		END IF;
 		pixel_col <= h_cnt;
 		pixel_row <= v_cnt;
+		
 		-- Register video to clock edge and suppress video during blanking and sync periods
 		red_out   <= red_in AND video_on;
 		green_out <= green_in AND video_on;

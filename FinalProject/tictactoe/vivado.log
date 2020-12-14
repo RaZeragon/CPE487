@@ -2,10 +2,10 @@
 # Vivado v2020.1.1 (64-bit)
 # SW Build 2960000 on Wed Aug  5 22:57:20 MDT 2020
 # IP Build 2956692 on Thu Aug  6 01:41:30 MDT 2020
-# Start of session at: Thu Dec  3 01:00:03 2020
-# Process ID: 11456
+# Start of session at: Sun Dec 13 22:03:28 2020
+# Process ID: 13188
 # Current directory: C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/FinalProject/tictactoe
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent20696 C:\Users\Kevin Ward\Desktop\Coding\Projects\CPE487\FinalProject\tictactoe\tictactoe.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18368 C:\Users\Kevin Ward\Desktop\Coding\Projects\CPE487\FinalProject\tictactoe\tictactoe.xpr
 # Log file: C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/FinalProject/tictactoe/vivado.log
 # Journal file: C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/FinalProject/tictactoe\vivado.jou
 #-----------------------------------------------------------
@@ -18,4 +18,4 @@ INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'.
 update_compile_order -fileset sources_1
 exit
-INFO: [Common 17-206] Exiting Vivado at Thu Dec  3 12:57:10 2020...
+INFO: [Common 17-206] Exiting Vivado at Mon Dec 14 03:34:41 2020...

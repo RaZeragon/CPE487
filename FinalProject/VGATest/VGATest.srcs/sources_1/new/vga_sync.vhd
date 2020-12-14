@@ -4,9 +4,10 @@ USE IEEE.STD_LOGIC_UNSIGNED.ALL;
 
 ENTITY vga_sync IS
     PORT(
-    clk_in : IN STD_LOGIC;
-    HSYNC, VSYNC : OUT STD_LOGIC;
-    R, G, B : OUT STD_LOGIC_VECTOR(3 DOWNTO 0)
+    clk_in          : IN STD_LOGIC;
+    HSYNC, VSYNC    : OUT STD_LOGIC;
+    R, G, B         : OUT STD_LOGIC_VECTOR(3 DOWNTO 0);
+    X_POS, Y_POS    : OUT INTEGER
     );
 END vga_sync;
 
@@ -28,6 +29,14 @@ PROCESS(clk_in)
     VARIABLE VPOS   : INTEGER :=0;
 BEGIN
     IF (clk_in'EVENT AND clk_in ='1') THEN
+        
+        -- Test
+        IF (HPOS > 480 OR VPOS > 281) THEN
+            R <= (OTHERS => '1');
+            G <= (OTHERS => '1');
+            B <= (OTHERS => '1');
+        END IF;
+        
         -- Runs through each pixel from left to right and then going down a row
         IF (HPOS < H + H_FP + H_BP + H_SYNC) THEN
             HPOS := HPOS + 1;
@@ -38,6 +47,9 @@ BEGIN
             ELSE
                 VPOS := 0;
             END IF;
+            
+            X_POS <= HPOS - 144;
+            Y_POS <= VPOS - 31;
         END IF;
         
         -- Setting up VSYNC and HSYNC signals (synchronization)
@@ -61,11 +73,6 @@ BEGIN
             B <= (OTHERS => '0');
         END IF;
         
-        IF (HPOS > 480 OR VPOS > 281) THEN
-            R <= (OTHERS => '1');
-            G <= (OTHERS => '1');
-            B <= (OTHERS => '1');
-        END IF;
     END IF;
 END PROCESS;
 END Behavioral;

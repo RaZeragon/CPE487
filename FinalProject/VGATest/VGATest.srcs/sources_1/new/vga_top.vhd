@@ -13,15 +13,18 @@ END vga_top;
 ARCHITECTURE Behavioral OF vga_top IS
     COMPONENT vga_sync IS
         PORT(
-        clk_in : IN STD_LOGIC;
-        HSYNC, VSYNC : OUT STD_LOGIC;
-        R, G, B : OUT STD_LOGIC_VECTOR(3 DOWNTO 0)
+        clk_in          : IN STD_LOGIC;
+        HSYNC, VSYNC    : OUT STD_LOGIC;
+        R, G, B         : OUT STD_LOGIC_VECTOR(3 DOWNTO 0);
+        X_POS, Y_POS    : OUT INTEGER
         );
     END COMPONENT vga_sync;
     
     -- Internal Signals
-    SIGNAL CLK_25 : STD_LOGIC := '0';
+    SIGNAL CLK_25           : STD_LOGIC := '0';
     SIGNAL red, green, blue : STD_LOGIC_VECTOR(3 DOWNTO 0) := "0000";
+    SIGNAL SX_POS           : INTEGER := -1;
+    SIGNAL SY_POS           : INTEGER := -1;
     
 BEGIN
     vga_driver : vga_sync
@@ -31,7 +34,9 @@ BEGIN
         VSYNC => VGA_VS,
         R(3 DOWNTO 0) => VGA_R(3 DOWNTO 0),
         G(3 DOWNTO 0) => VGA_G(3 DOWNTO 0),
-        B(3 DOWNTO 0) => VGA_B(3 DOWNTO 0)
+        B(3 DOWNTO 0) => VGA_B(3 DOWNTO 0),
+        X_POS => SX_POS,
+        Y_POS => SY_POS
     );
     
 END Behavioral;

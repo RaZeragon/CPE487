@@ -88,6 +88,8 @@ set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
 read_vhdl -library xil_defaultlib {
+  {C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/Labs/Lab 3/clk_wiz_0.vhd}
+  {C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/Labs/Lab 3/clk_wiz_0_clk_wiz.vhd}
   {C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/FinalProject/VGATest/VGATest.srcs/sources_1/new/tictactoe.vhd}
   {C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/FinalProject/VGATest/VGATest.srcs/sources_1/new/vga_sync.vhd}
   {C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/FinalProject/VGATest/VGATest.srcs/sources_1/new/vga_top.vhd}

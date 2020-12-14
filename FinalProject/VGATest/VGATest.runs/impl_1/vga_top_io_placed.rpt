@@ -1,7 +1,7 @@
 Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------
 | Tool Version              : Vivado v.2020.1.1 (win64) Build 2960000 Wed Aug  5 22:57:20 MDT 2020
-| Date                      : Mon Dec 14 12:16:03 2020
+| Date                      : Mon Dec 14 13:58:00 2020
 | Host                      : RaZeragon running 64-bit major release  (build 9200)
 | Command                   : report_io -file vga_top_io_placed.rpt
 | Design                    : vga_top
@@ -25,7 +25,7 @@ Table of Contents
 +---------------+
 | Total User IO |
 +---------------+
-|            16 |
+|            15 |
 +---------------+
 
 
@@ -109,7 +109,7 @@ Table of Contents
 | D18        |             | High Range | IO_L21N_T3_DQS_A18_15        | User IO     |             |      15 |            |      |                     |                      |         |            |           |          |      |                  |              |                   |              |
 | E1         |             | High Range | IO_L18N_T2_35                | User IO     |             |      35 |            |      |                     |                      |         |            |           |          |      |                  |              |                   |              |
 | E2         |             | High Range | IO_L14P_T2_SRCC_35           | User IO     |             |      35 |            |      |                     |                      |         |            |           |          |      |                  |              |                   |              |
-| E3         |             | High Range | IO_L12P_T1_MRCC_35           | User IO     |             |      35 |            |      |                     |                      |         |            |           |          |      |                  |              |                   |              |
+| E3         | clk_in      | High Range | IO_L12P_T1_MRCC_35           | INPUT       | LVCMOS33    |      35 |            |      |                     |                 NONE |         | FIXED      |           |          |      | NONE             |              |                   |              |
 | E4         |             |            | GND                          | GND         |             |         |            |      |                     |                      |     0.0 |            |           |          |      |                  |              |                   |              |
 | E5         |             | High Range | IO_L5N_T0_AD13N_35           | User IO     |             |      35 |            |      |                     |                      |         |            |           |          |      |                  |              |                   |              |
 | E6         |             | High Range | IO_L5P_T0_AD13P_35           | User IO     |             |      35 |            |      |                     |                      |         |            |           |          |      |                  |              |                   |              |

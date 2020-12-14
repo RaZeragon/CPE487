@@ -4,7 +4,7 @@ USE IEEE.STD_LOGIC_UNSIGNED.ALL;
 
 ENTITY tictactoe IS
     PORT (
-        clk_in              : IN STD_LOGIC;
+        PXL_CLK             : IN STD_LOGIC;
         DISPLAY             : IN STD_LOGIC;
         X_POS, Y_POS        : IN INTEGER;
         R_OUT, G_OUT, B_OUT : OUT STD_LOGIC_VECTOR(3 DOWNTO 0)
@@ -14,14 +14,16 @@ END tictactoe;
 ARCHITECTURE Behavioral OF tictactoe IS
     
 BEGIN
-PROCESS(clk_in)
+PROCESS(X_POS, Y_POS)
 BEGIN
-    IF (DISPLAY = '1') THEN
-        IF (X_POS > 320 AND Y_POS > 240) THEN
-            R_OUT <= "1111";
-            G_OUT <= "1111";
-            B_OUT <= "1111";
-        END IF;
+    IF ((X_POS > 50 AND Y_POS > 50) AND (X_POS < 800 AND Y_POS < 600)) THEN
+        R_OUT <= "1111";
+        G_OUT <= "1111";
+        B_OUT <= "1111";
+    ELSE
+        R_OUT <= "0000";
+        G_OUT <= "0000";
+        B_OUT <= "0000";
     END IF;
 END PROCESS;
 END Behavioral;

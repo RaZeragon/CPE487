@@ -4,7 +4,7 @@ USE IEEE.STD_LOGIC_UNSIGNED.ALL;
 
 ENTITY vga_top IS
     PORT(
-        clk_in                  : IN STD_LOGIC_VECTOR (1 DOWNTO 0);
+        clk_in                  : IN STD_LOGIC;
         VGA_HS, VGA_VS          : OUT STD_LOGIC;
         VGA_R, VGA_G, VGA_B     : OUT STD_LOGIC_VECTOR(3 DOWNTO 0)
     );
@@ -13,7 +13,7 @@ END vga_top;
 ARCHITECTURE Behavioral OF vga_top IS
     COMPONENT vga_sync IS
         PORT(
-            clk_in              : IN STD_LOGIC;
+            PXL_CLK             : IN STD_LOGIC;
             R_IN, G_IN, B_IN    : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
             HSYNC, VSYNC        : OUT STD_LOGIC;
             DISPLAY_OUT         : OUT STD_LOGIC;
@@ -24,15 +24,29 @@ ARCHITECTURE Behavioral OF vga_top IS
     
     COMPONENT tictactoe IS
         PORT (
-            clk_in              : IN STD_LOGIC;
+            PXL_CLK             : IN STD_LOGIC;
             DISPLAY             : IN STD_LOGIC;
             X_POS, Y_POS        : IN INTEGER;
             R_OUT, G_OUT, B_OUT : OUT STD_LOGIC_VECTOR(3 DOWNTO 0)
         );
     END COMPONENT tictactoe;
     
+    COMPONENT clk_wiz_0 IS
+        PORT (
+            clk_in1 : IN STD_LOGIC;
+            clk_out1 : OUT STD_LOGIC
+        );
+    END COMPONENT clk_wiz_0;
+    
+--    COMPONENT clk IS
+--        PORT (
+--            clk_in  : IN STD_LOGIC;
+--            clk_out : OUT STD_LOGIC
+--        );
+--    END COMPONENT clk;
+    
     -- Internal Signals
-    SIGNAL CLK_25           : STD_LOGIC := '0';
+    SIGNAL CLK_108          : STD_LOGIC;
     SIGNAL display          : STD_LOGIC := '0';
     SIGNAL red, green, blue : STD_LOGIC_VECTOR(3 DOWNTO 0) := "0000";
     SIGNAL SX_POS           : INTEGER := -1;
@@ -41,7 +55,7 @@ ARCHITECTURE Behavioral OF vga_top IS
 BEGIN
     vga_driver : vga_sync
     PORT MAP(
-        clk_in => CLK_25,
+        PXL_CLK => CLK_108,
         R_IN => red,
         G_IN => green,
         B_IN => blue,
@@ -57,7 +71,7 @@ BEGIN
     
     ttt_logic : tictactoe
     PORT MAP(
-        clk_in => CLK_25,
+        PXL_CLK => CLK_108,
         DISPLAY => display,
         X_POS => SX_POS,
         Y_POS => SY_POS,
@@ -65,4 +79,16 @@ BEGIN
         G_OUT => green,
         B_OUT => blue
     );
+    
+    clk_wiz_0_inst : clk_wiz_0
+    port map (
+      clk_in1 => clk_in,
+      clk_out1 => CLK_108
+    );
+    
+--    clk_wiz : clk
+--    PORT MAP(
+--        clk_in => clk_in,
+--        clk_out => CLK_25
+--    );
 END Behavioral;

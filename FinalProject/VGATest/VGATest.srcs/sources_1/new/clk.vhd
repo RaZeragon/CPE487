@@ -1,5 +1,6 @@
 LIBRARY IEEE;
 USE IEEE.STD_LOGIC_1164.ALL;
+USE IEEE.STD_LOGIC_UNSIGNED.ALL;
 
 ENTITY clk IS
     PORT (
@@ -9,8 +10,6 @@ ENTITY clk IS
 END clk;
 
 ARCHITECTURE Behavioral OF clk IS
-
 BEGIN
-
-
+    clk_out <= clk_in;
 END Behavioral;

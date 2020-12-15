@@ -1,16 +1,4 @@
-set_property SRC_FILE_INFO {cfile:{C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/FinalProject/VGATest/VGATest.srcs/constrs_1/new/vga_top.xdc} rfile:../../../../VGATest/VGATest.srcs/constrs_1/new/vga_top.xdc id:1} [current_design]
-set_property src_info {type:XDC file:1 line:1 export:INPUT save:INPUT read:READ} [current_design]
--- Author: Kevin Lu
-set_property src_info {type:XDC file:1 line:2 export:INPUT save:INPUT read:READ} [current_design]
--- Date: 1/18/2020
-set_property src_info {type:XDC file:1 line:3 export:INPUT save:INPUT read:READ} [current_design]
--- Title: vga_top.xdc
-set_property src_info {type:XDC file:1 line:4 export:INPUT save:INPUT read:READ} [current_design]
--- Code Version: N/A
-set_property src_info {type:XDC file:1 line:5 export:INPUT save:INPUT read:READ} [current_design]
--- Type: Constraint File
-set_property src_info {type:XDC file:1 line:6 export:INPUT save:INPUT read:READ} [current_design]
--- Availability: https://github.com/kevinwlu/dsd/blob/master/Nexys-A7/Nexys-A7-100T-Master.xdc
+set_property SRC_FILE_INFO {cfile:{C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/FinalProject/tictactoe/tictactoe.srcs/constrs_1/new/vga_top.xdc} rfile:../../../tictactoe.srcs/constrs_1/new/vga_top.xdc id:1} [current_design]
 set_property src_info {type:XDC file:1 line:9 export:INPUT save:INPUT read:READ} [current_design]
 set_property -dict { PACKAGE_PIN E3    IOSTANDARD LVCMOS33 } [get_ports { clk_in }]; #IO_L12P_T1_MRCC_35 Sch=clk100mhz
 set_property src_info {type:XDC file:1 line:13 export:INPUT save:INPUT read:READ} [current_design]

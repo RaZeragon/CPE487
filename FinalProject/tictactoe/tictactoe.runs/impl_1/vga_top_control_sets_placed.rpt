@@ -1,7 +1,7 @@
 Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 --------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2020.1.1 (win64) Build 2960000 Wed Aug  5 22:57:20 MDT 2020
-| Date         : Tue Dec 15 12:51:02 2020
+| Date         : Tue Dec 15 13:11:39 2020
 | Host         : RaZeragon running 64-bit major release  (build 9200)
 | Command      : report_control_sets -verbose -file vga_top_control_sets_placed.rpt
 | Design       : vga_top
@@ -78,9 +78,9 @@ Table of Contents
 | ~ttt_logic/END_STATE_reg_n_0_[0] |                             |                             |                1 |              3 |         3.00 |
 |  KP_CLK                          |                             |                             |                2 |              4 |         2.00 |
 |  KP_CLK                          | input/CV1                   |                             |                3 |              4 |         1.33 |
-|  KP_CLK                          | input/CV3                   |                             |                2 |              4 |         2.00 |
-|  KP_CLK                          | input/CV4                   |                             |                1 |              4 |         4.00 |
 |  KP_CLK                          | input/CV2                   |                             |                2 |              4 |         2.00 |
+|  KP_CLK                          | input/CV4                   |                             |                1 |              4 |         4.00 |
+|  KP_CLK                          | input/CV3                   |                             |                2 |              4 |         2.00 |
 |  input/CLK                       | ttt_logic/O_GAME_BOARD      |                             |                4 |              9 |         2.25 |
 |  input/CLK                       | ttt_logic/X_GAME_BOARD      |                             |                5 |              9 |         1.80 |
 |  input/CLK                       |                             |                             |                6 |             11 |         1.83 |

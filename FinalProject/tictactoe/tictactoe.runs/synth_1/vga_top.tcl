@@ -70,6 +70,8 @@ proc create_report { reportName command } {
   }
 }
 OPTRACE "synth_1" START { ROLLUP_AUTO }
+set_param chipscope.maxJobs 1
+set_param xicom.use_bs_reader 1
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xc7a100tcsg324-1
 
@@ -88,10 +90,10 @@ OPTRACE "Adding files" START { }
 read_vhdl -library xil_defaultlib {
   {C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/Labs/Lab 3/clk_wiz_0.vhd}
   {C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/Labs/Lab 3/clk_wiz_0_clk_wiz.vhd}
-  {C:/Users/Kevin Ward/Desktop/keypad.vhd}
-  {C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/FinalProject/VGATest/VGATest.srcs/sources_1/new/tictactoe.vhd}
-  {C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/FinalProject/VGATest/VGATest.srcs/sources_1/new/vga_sync.vhd}
-  {C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/FinalProject/VGATest/VGATest.srcs/sources_1/new/vga_top.vhd}
+  {C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/FinalProject/tictactoe/tictactoe.srcs/sources_1/new/keypad.vhd}
+  {C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/FinalProject/tictactoe/tictactoe.srcs/sources_1/new/tictactoe.vhd}
+  {C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/FinalProject/tictactoe/tictactoe.srcs/sources_1/new/vga_sync.vhd}
+  {C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/FinalProject/tictactoe/tictactoe.srcs/sources_1/new/vga_top.vhd}
 }
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being
@@ -102,8 +104,8 @@ OPTRACE "Adding files" END { }
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
-read_xdc {{C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/FinalProject/VGATest/VGATest.srcs/constrs_1/new/vga_top.xdc}}
-set_property used_in_implementation false [get_files {{C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/FinalProject/VGATest/VGATest.srcs/constrs_1/new/vga_top.xdc}}]
+read_xdc {{C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/FinalProject/tictactoe/tictactoe.srcs/constrs_1/new/vga_top.xdc}}
+set_property used_in_implementation false [get_files {{C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/FinalProject/tictactoe/tictactoe.srcs/constrs_1/new/vga_top.xdc}}]
 
 set_param ips.enableIPCacheLiteLoad 1
 close [open __synthesis_is_running__ w]

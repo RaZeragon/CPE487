@@ -1,6 +1,9 @@
 # CPE487
 Code for CPE487 (Digital System Design)
 
+## Final Project
+Create tictactoe game using VHDL to display on a VGA monitor.
+
 ## Free Range Problems
 Example problems from *FREE RANGE VHDL* by Bryan Mealy and Fabrizio Tappero
 

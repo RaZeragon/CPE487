@@ -1,7 +1,7 @@
 Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 --------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2020.1.1 (win64) Build 2960000 Wed Aug  5 22:57:20 MDT 2020
-| Date         : Tue Dec 15 09:38:07 2020
+| Date         : Tue Dec 15 09:54:07 2020
 | Host         : RaZeragon running 64-bit major release  (build 9200)
 | Command      : report_control_sets -verbose -file vga_top_control_sets_placed.rpt
 | Design       : vga_top
@@ -58,10 +58,10 @@ Table of Contents
 +--------------+-----------------------+------------------------+-----------------+--------------+
 | Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
 +--------------+-----------------------+------------------------+-----------------+--------------+
-| No           | No                    | No                     |             108 |           33 |
+| No           | No                    | No                     |             108 |           32 |
 | No           | No                    | Yes                    |               0 |            0 |
 | No           | Yes                   | No                     |              36 |           12 |
-| Yes          | No                    | No                     |              34 |           16 |
+| Yes          | No                    | No                     |              34 |           12 |
 | Yes          | No                    | Yes                    |               0 |            0 |
 | Yes          | Yes                   | No                     |              32 |            9 |
 +--------------+-----------------------+------------------------+-----------------+--------------+
@@ -70,24 +70,24 @@ Table of Contents
 4. Detailed Control Set Information
 -----------------------------------
 
-+-----------------------------+-----------------------------+-----------------------------+------------------+----------------+--------------+
-|         Clock Signal        |        Enable Signal        |       Set/Reset Signal      | Slice Load Count | Bel Load Count | Bels / Slice |
-+-----------------------------+-----------------------------+-----------------------------+------------------+----------------+--------------+
-|  clk_wiz_0_inst/U0/clk_out1 |                             | vga_driver/HSYNC0           |                1 |              1 |         1.00 |
-|  clk_wiz_0_inst/U0/clk_out1 |                             | vga_driver/VSYNC0           |                1 |              1 |         1.00 |
-| ~ttt_logic/GAME_STATE[0]    |                             |                             |                2 |              3 |         1.50 |
-|  KP_CLK                     |                             |                             |                1 |              4 |         4.00 |
-|  KP_CLK                     | input/CV3                   |                             |                2 |              4 |         2.00 |
-|  KP_CLK                     | input/CV2                   |                             |                2 |              4 |         2.00 |
-|  KP_CLK                     | input/CV1                   |                             |                3 |              4 |         1.33 |
-|  KP_CLK                     | input/CV4                   |                             |                2 |              4 |         2.00 |
-|  input/CLK                  | ttt_logic/O_GAME_BOARD      |                             |                3 |              9 |         3.00 |
-|  input/CLK                  | ttt_logic/X_GAME_BOARD      |                             |                4 |              9 |         2.25 |
-|  input/CLK                  |                             |                             |                5 |             11 |         2.20 |
-|  clk_in_IBUF_BUFG           |                             |                             |                4 |             16 |         4.00 |
-|  clk_wiz_0_inst/U0/clk_out1 | vga_driver/HPOS[31]_i_1_n_0 | vga_driver/VPOS[31]_i_1_n_0 |                9 |             32 |         3.56 |
-|  clk_wiz_0_inst/U0/clk_out1 |                             | vga_driver/HPOS[31]_i_1_n_0 |               10 |             34 |         3.40 |
-|  clk_wiz_0_inst/U0/clk_out1 |                             |                             |               21 |             74 |         3.52 |
-+-----------------------------+-----------------------------+-----------------------------+------------------+----------------+--------------+
++----------------------------------+-----------------------------+-----------------------------+------------------+----------------+--------------+
+|           Clock Signal           |        Enable Signal        |       Set/Reset Signal      | Slice Load Count | Bel Load Count | Bels / Slice |
++----------------------------------+-----------------------------+-----------------------------+------------------+----------------+--------------+
+|  clk_wiz_0_inst/U0/clk_out1      |                             | vga_driver/VSYNC0           |                1 |              1 |         1.00 |
+|  clk_wiz_0_inst/U0/clk_out1      |                             | vga_driver/HSYNC0           |                1 |              1 |         1.00 |
+| ~ttt_logic/END_STATE_reg_n_0_[0] |                             |                             |                1 |              3 |         3.00 |
+|  KP_CLK                          |                             |                             |                1 |              4 |         4.00 |
+|  KP_CLK                          | input/CV4                   |                             |                1 |              4 |         4.00 |
+|  KP_CLK                          | input/CV2                   |                             |                1 |              4 |         4.00 |
+|  KP_CLK                          | input/CV1                   |                             |                1 |              4 |         4.00 |
+|  KP_CLK                          | input/CV3                   |                             |                1 |              4 |         4.00 |
+|  input/CLK                       | ttt_logic/O_GAME_BOARD      |                             |                4 |              9 |         2.25 |
+|  input/CLK                       | ttt_logic/X_GAME_BOARD      |                             |                4 |              9 |         2.25 |
+|  input/CLK                       |                             |                             |                4 |             11 |         2.75 |
+|  clk_in_IBUF_BUFG                |                             |                             |                4 |             16 |         4.00 |
+|  clk_wiz_0_inst/U0/clk_out1      | vga_driver/HPOS[31]_i_1_n_0 | vga_driver/VPOS[31]_i_1_n_0 |                9 |             32 |         3.56 |
+|  clk_wiz_0_inst/U0/clk_out1      |                             | vga_driver/HPOS[31]_i_1_n_0 |               10 |             34 |         3.40 |
+|  clk_wiz_0_inst/U0/clk_out1      |                             |                             |               22 |             74 |         3.36 |
++----------------------------------+-----------------------------+-----------------------------+------------------+----------------+--------------+
 
 

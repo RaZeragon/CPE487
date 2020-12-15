@@ -1,7 +1,7 @@
 Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 ------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2020.1.1 (win64) Build 2960000 Wed Aug  5 22:57:20 MDT 2020
-| Date         : Tue Dec 15 09:38:03 2020
+| Date         : Tue Dec 15 09:54:03 2020
 | Host         : RaZeragon running 64-bit major release  (build 9200)
 | Command      : report_drc -file vga_top_drc_opted.rpt -pb vga_top_drc_opted.pb -rpx vga_top_drc_opted.rpx
 | Design       : vga_top
@@ -56,7 +56,7 @@ Related violations: <none>
 PLHOLDVIO-2#1 Warning
 Non-Optimal connections which could lead to hold violations  
 A LUT input/TURN[8]_i_2 is driving clock pin of 29 cells. This could lead to large hold time violations. Involved cells are:
-ttt_logic/GAME_STATE_reg[0], ttt_logic/O_GAME_BOARD_reg[0],
+ttt_logic/END_STATE_reg[0], ttt_logic/O_GAME_BOARD_reg[0],
 ttt_logic/O_GAME_BOARD_reg[1], ttt_logic/O_GAME_BOARD_reg[2],
 ttt_logic/O_GAME_BOARD_reg[3], ttt_logic/O_GAME_BOARD_reg[4],
 ttt_logic/O_GAME_BOARD_reg[5], ttt_logic/O_GAME_BOARD_reg[6],

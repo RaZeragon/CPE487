@@ -33,7 +33,7 @@ CONSTANT HASH_VER_L : INTEGER := 460;
 CONSTANT HASH_WIDTH : INTEGER := 10;    -- Multiply by 2 to get actual width
 
 -- Game Variables
-SIGNAL GAME_STATE, END_STATE    : STD_LOGIC_VECTOR(1 DOWNTO 0) := "00";
+SIGNAL END_STATE    : STD_LOGIC_VECTOR(1 DOWNTO 0) := "00";
     -- END_STATE: "11" -> Victory
     -- END_STATE: "01" -> Stalemate
 
@@ -43,6 +43,9 @@ SIGNAL O_GAME_BOARD : STD_LOGIC_VECTOR(8 DOWNTO 0) := "000000000";
 SIGNAL TURN         : STD_LOGIC_VECTOR(8 DOWNTO 0) := "000000000";
 SIGNAL PLAYER       : STD_LOGIC := '0';
 CONSTANT TURN_COUNT : INTEGER := 0;
+
+-- Testing
+SIGNAL TEST : STD_LOGIC := '0';
 
 -- Bitmaps
 TYPE BITMAP_X IS ARRAY(0 TO 39) OF STD_LOGIC_VECTOR(39 DOWNTO 0);
@@ -136,7 +139,7 @@ CONSTANT O_SPRITE : BITMAP_O := ((
 BEGIN
 draw_hash : PROCESS(X_POS, Y_POS, PRESS)
 BEGIN
-    IF (GAME_STATE = "00") THEN
+    IF (END_STATE = "00") THEN
         IF ((X_POS > 0 AND X_POS < 800) AND (Y_POS > 0 AND Y_POS < 600)) THEN
             R_OUT <= WHITE(11 DOWNTO 8);
             G_OUT <= WHITE(7 DOWNTO 4);
@@ -151,12 +154,80 @@ BEGIN
                 END IF;
                 
                 -- Position 1 (Top Left)
+                IF (X_GAME_BOARD(0) = '1') THEN
+                    IF ((Y_POS > 220 AND Y_POS < 260) AND (X_POS > 260 AND X_POS < 300)) THEN
+                        IF (X_SPRITE(Y_POS - 340)(X_POS - 380) = '1') THEN
+                            R_OUT <= RED(11 DOWNTO 8);
+                            G_OUT <= RED(7 DOWNTO 4);
+                            B_OUT <= RED(3 DOWNTO 0);
+                        END IF;
+                    END IF;
+                ELSIF (O_GAME_BOARD(0) = '1') THEN
+                    IF ((Y_POS > 220 AND Y_POS < 260) AND (X_POS > 260 AND X_POS < 300)) THEN
+                        IF (O_SPRITE(Y_POS - 340)(X_POS - 380) = '1') THEN
+                            R_OUT <= BLUE(11 DOWNTO 8);
+                            G_OUT <= BLUE(7 DOWNTO 4);
+                            B_OUT <= BLUE(3 DOWNTO 0);
+                        END IF;
+                    END IF;
+                END IF;
                 
                 -- Position 2 (Top Mid)
+                IF (X_GAME_BOARD(1) = '1') THEN
+                    IF ((Y_POS > 220 AND Y_POS < 260) AND (X_POS > 380 AND X_POS < 420)) THEN
+                        IF (X_SPRITE(Y_POS - 340)(X_POS - 380) = '1') THEN
+                            R_OUT <= RED(11 DOWNTO 8);
+                            G_OUT <= RED(7 DOWNTO 4);
+                            B_OUT <= RED(3 DOWNTO 0);
+                        END IF;
+                    END IF;
+                ELSIF (O_GAME_BOARD(1) = '1') THEN
+                    IF ((Y_POS > 220 AND Y_POS < 260) AND (X_POS > 380 AND X_POS < 420)) THEN
+                        IF (O_SPRITE(Y_POS - 340)(X_POS - 380) = '1') THEN
+                            R_OUT <= BLUE(11 DOWNTO 8);
+                            G_OUT <= BLUE(7 DOWNTO 4);
+                            B_OUT <= BLUE(3 DOWNTO 0);
+                        END IF;
+                    END IF;
+                END IF;
                 
                 -- Position 3 (Top Right)
+                IF (X_GAME_BOARD(2) = '1') THEN
+                    IF ((Y_POS > 220 AND Y_POS < 260) AND (X_POS > 500 AND X_POS < 540)) THEN
+                        IF (X_SPRITE(Y_POS - 340)(X_POS - 380) = '1') THEN
+                            R_OUT <= RED(11 DOWNTO 8);
+                            G_OUT <= RED(7 DOWNTO 4);
+                            B_OUT <= RED(3 DOWNTO 0);
+                        END IF;
+                    END IF;
+                ELSIF (O_GAME_BOARD(2) = '1') THEN
+                    IF ((Y_POS > 220 AND Y_POS < 260) AND (X_POS > 500 AND X_POS < 540)) THEN
+                        IF (O_SPRITE(Y_POS - 340)(X_POS - 380) = '1') THEN
+                            R_OUT <= BLUE(11 DOWNTO 8);
+                            G_OUT <= BLUE(7 DOWNTO 4);
+                            B_OUT <= BLUE(3 DOWNTO 0);
+                        END IF;
+                    END IF;
+                END IF;
                 
                 -- Position 4 (Mid Left)
+                IF (X_GAME_BOARD(3) = '1') THEN
+                    IF ((Y_POS > 340 AND Y_POS < 380) AND (X_POS > 260 AND X_POS < 300)) THEN
+                        IF (X_SPRITE(Y_POS - 340)(X_POS - 380) = '1') THEN
+                            R_OUT <= RED(11 DOWNTO 8);
+                            G_OUT <= RED(7 DOWNTO 4);
+                            B_OUT <= RED(3 DOWNTO 0);
+                        END IF;
+                    END IF;
+                ELSIF (O_GAME_BOARD(3) = '1') THEN
+                    IF ((Y_POS > 340 AND Y_POS < 380) AND (X_POS > 260 AND X_POS < 300)) THEN
+                        IF (O_SPRITE(Y_POS - 340)(X_POS - 380) = '1') THEN
+                            R_OUT <= BLUE(11 DOWNTO 8);
+                            G_OUT <= BLUE(7 DOWNTO 4);
+                            B_OUT <= BLUE(3 DOWNTO 0);
+                        END IF;
+                    END IF;
+                END IF;
                 
                 -- Position 5 (Mid Mid)
                 IF (X_GAME_BOARD(4) = '1') THEN
@@ -178,19 +249,101 @@ BEGIN
                 END IF;
                 
                 -- Position 6 (Mid Right)
+                IF (X_GAME_BOARD(5) = '1') THEN
+                    IF ((Y_POS > 340 AND Y_POS < 380) AND (X_POS > 500 AND X_POS < 540)) THEN
+                        IF (X_SPRITE(Y_POS - 340)(X_POS - 380) = '1') THEN
+                            R_OUT <= RED(11 DOWNTO 8);
+                            G_OUT <= RED(7 DOWNTO 4);
+                            B_OUT <= RED(3 DOWNTO 0);
+                        END IF;
+                    END IF;
+                ELSIF (O_GAME_BOARD(5) = '1') THEN
+                    IF ((Y_POS > 340 AND Y_POS < 380) AND (X_POS > 500 AND X_POS < 540)) THEN
+                        IF (O_SPRITE(Y_POS - 340)(X_POS - 380) = '1') THEN
+                            R_OUT <= BLUE(11 DOWNTO 8);
+                            G_OUT <= BLUE(7 DOWNTO 4);
+                            B_OUT <= BLUE(3 DOWNTO 0);
+                        END IF;
+                    END IF;
+                END IF;
                 
                 -- Position 7 (Bot Left)
+                IF (X_GAME_BOARD(6) = '1') THEN
+                    IF ((Y_POS > 460 AND Y_POS < 500) AND (X_POS > 260 AND X_POS < 300)) THEN
+                        IF (X_SPRITE(Y_POS - 340)(X_POS - 380) = '1') THEN
+                            R_OUT <= RED(11 DOWNTO 8);
+                            G_OUT <= RED(7 DOWNTO 4);
+                            B_OUT <= RED(3 DOWNTO 0);
+                        END IF;
+                    END IF;
+                ELSIF (O_GAME_BOARD(6) = '1') THEN
+                    IF ((Y_POS > 460 AND Y_POS < 500) AND (X_POS > 260 AND X_POS < 300)) THEN
+                        IF (O_SPRITE(Y_POS - 340)(X_POS - 380) = '1') THEN
+                            R_OUT <= BLUE(11 DOWNTO 8);
+                            G_OUT <= BLUE(7 DOWNTO 4);
+                            B_OUT <= BLUE(3 DOWNTO 0);
+                        END IF;
+                    END IF;
+                END IF;
                 
                 -- Position 8 (Bot Mid)
+                IF (X_GAME_BOARD(7) = '1') THEN
+                    IF ((Y_POS > 460 AND Y_POS < 500) AND (X_POS > 380 AND X_POS < 420)) THEN
+                        IF (X_SPRITE(Y_POS - 340)(X_POS - 380) = '1') THEN
+                            R_OUT <= RED(11 DOWNTO 8);
+                            G_OUT <= RED(7 DOWNTO 4);
+                            B_OUT <= RED(3 DOWNTO 0);
+                        END IF;
+                    END IF;
+                ELSIF (O_GAME_BOARD(7) = '1') THEN
+                    IF ((Y_POS > 460 AND Y_POS < 500) AND (X_POS > 380 AND X_POS < 420)) THEN
+                        IF (O_SPRITE(Y_POS - 340)(X_POS - 380) = '1') THEN
+                            R_OUT <= BLUE(11 DOWNTO 8);
+                            G_OUT <= BLUE(7 DOWNTO 4);
+                            B_OUT <= BLUE(3 DOWNTO 0);
+                        END IF;
+                    END IF;
+                END IF;
                 
                 -- Position 9 (Bot Right)
+                IF (X_GAME_BOARD(8) = '1') THEN
+                    IF ((Y_POS > 460 AND Y_POS < 500) AND (X_POS > 500 AND X_POS < 540)) THEN
+                        IF (X_SPRITE(Y_POS - 340)(X_POS - 380) = '1') THEN
+                            R_OUT <= RED(11 DOWNTO 8);
+                            G_OUT <= RED(7 DOWNTO 4);
+                            B_OUT <= RED(3 DOWNTO 0);
+                        END IF;
+                    END IF;
+                ELSIF (O_GAME_BOARD(8) = '1') THEN
+                    IF ((Y_POS > 460 AND Y_POS < 500) AND (X_POS > 500 AND X_POS < 540)) THEN
+                        IF (O_SPRITE(Y_POS - 340)(X_POS - 380) = '1') THEN
+                            R_OUT <= BLUE(11 DOWNTO 8);
+                            G_OUT <= BLUE(7 DOWNTO 4);
+                            B_OUT <= BLUE(3 DOWNTO 0);
+                        END IF;
+                    END IF;
+                END IF;
                 
+--                IF (TEST = '1') THEN
+--                    IF ((X_POS > 0 AND X_POS < 800) AND (Y_POS > 0 AND Y_POS < 600)) THEN
+--                        R_OUT <= BLACK(11 DOWNTO 8);
+--                        G_OUT <= BLACK(7 DOWNTO 4);
+--                        B_OUT <= BLACK(3 DOWNTO 0);
+--                    END IF;
+--                END IF;
             END IF;
         ELSE
             R_OUT <= BLACK(11 DOWNTO 8);
             G_OUT <= BLACK(7 DOWNTO 4);
             B_OUT <= BLACK(3 DOWNTO 0);
         END IF;
+    
+    -- Tie
+    ELSIF (END_STATE = "01") THEN
+    
+    -- Win
+    ELSIF (END_STATE = "11") THEN
+    
     END IF;
 END PROCESS draw_hash;
 
@@ -260,12 +413,12 @@ BEGIN
     END IF;
 END PROCESS player_turn;
 
-game_change : PROCESS(PRESS)
-BEGIN
-    IF (PRESS'event AND PRESS = '1') THEN
-        IF (GAME_STATE = "00" AND INPUT = X"A") THEN
-            GAME_STATE <= "01";
-        END IF;
-    END IF;
-END PROCESS game_change;
+--game_change : PROCESS(PRESS)
+--BEGIN
+--    IF (PRESS'event AND PRESS = '1') THEN
+--        IF (GAME_STATE = "00" AND INPUT = X"A") THEN
+--            GAME_STATE <= "01";
+--        END IF;
+--    END IF;
+--END PROCESS game_change;
 END Behavioral;

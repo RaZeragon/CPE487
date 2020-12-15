@@ -5818,3 +5818,617 @@ selectCodeEditor("tictactoe.vhd", 112, 175); // bP (w, cs)
 selectCodeEditor("tictactoe.vhd", 83, 95); // bP (w, cs)
 typeControlKey((HResource) null, "tictactoe.vhd", 'c'); // bP (w, cs)
 selectCodeEditor("tictactoe.vhd", 95, 392); // bP (w, cs)
+typeControlKey((HResource) null, "tictactoe.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 188, 316); // bP (w, cs)
+typeControlKey(null, null, 'z');
+selectCodeEditor("tictactoe.vhd", 89, 361); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 95, 351); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 183, 319); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 110, 88); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 111, 80); // bP (w, cs)
+typeControlKey((HResource) null, "tictactoe.vhd", 'c'); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 133, 343); // bP (w, cs)
+typeControlKey((HResource) null, "tictactoe.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 85, 348); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 117, 352); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 125, 158); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 112, 131); // bP (w, cs)
+typeControlKey((HResource) null, "tictactoe.vhd", 'c'); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 256, 351); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 278, 369); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 600, 379); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 612, 366); // bP (w, cs)
+// Elapsed time: 18 seconds
+typeControlKey((HResource) null, "tictactoe.vhd", 'v'); // bP (w, cs)
+// Elapsed time: 11 seconds
+selectCodeEditor("tictactoe.vhd", 172, 327); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 172, 327, false, false, false, false, true); // bP (w, cs) - Double Click
+typeControlKey((HResource) null, "tictactoe.vhd", 'c'); // bP (w, cs)
+typeControlKey((HResource) null, "tictactoe.vhd", 'c'); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 163, 353); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 163, 353, false, false, false, false, true); // bP (w, cs) - Double Click
+typeControlKey((HResource) null, "tictactoe.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 163, 368); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 163, 368, false, false, false, false, true); // bP (w, cs) - Double Click
+typeControlKey((HResource) null, "tictactoe.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 161, 382); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 161, 382, false, false, false, false, true); // bP (w, cs) - Double Click
+typeControlKey((HResource) null, "tictactoe.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 161, 401); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 161, 401, false, false, false, false, true); // bP (w, cs) - Double Click
+typeControlKey((HResource) null, "tictactoe.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 162, 413); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 162, 413, false, false, false, false, true); // bP (w, cs) - Double Click
+typeControlKey((HResource) null, "tictactoe.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 167, 431); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 167, 431, false, false, false, false, true); // bP (w, cs) - Double Click
+typeControlKey((HResource) null, "tictactoe.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 64, 413); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 370, 431); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 369, 432); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 180, 468); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 245, 193); // bP (w, cs)
+typeControlKey((HResource) null, "tictactoe.vhd", 'c'); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 171, 449); // bP (w, cs)
+typeControlKey((HResource) null, "tictactoe.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 455, 414); // bP (w, cs)
+// Elapsed time: 15 seconds
+selectCodeEditor("tictactoe.vhd", 193, 286); // bP (w, cs)
+// Elapsed time: 40 seconds
+selectCodeEditor("tictactoe.vhd", 259, 295); // bP (w, cs)
+// Elapsed time: 100 seconds
+selectCodeEditor("tictactoe.vhd", 249, 417); // bP (w, cs)
+// Elapsed time: 11 seconds
+selectCodeEditor("tictactoe.vhd", 99, 316); // bP (w, cs)
+// Elapsed time: 16 seconds
+selectCodeEditor("tictactoe.vhd", 96, 319); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 103, 311); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 45, 312); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 96, 311); // bP (w, cs)
+// Elapsed time: 12 seconds
+selectCodeEditor("tictactoe.vhd", 337, 322); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 121, 300); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 217, 297); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 191, 280); // bP (w, cs)
+// Elapsed time: 11 seconds
+selectCodeEditor("tictactoe.vhd", 268, 286); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 280, 181); // bP (w, cs)
+typeControlKey((HResource) null, "tictactoe.vhd", 'c'); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 246, 449); // bP (w, cs)
+typeControlKey((HResource) null, "tictactoe.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 272, 166); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 301, 283); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 329, 312); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 331, 292); // bP (w, cs)
+// Elapsed time: 49 seconds
+selectCodeEditor("tictactoe.vhd", 468, 279); // bP (w, cs)
+// Elapsed time: 28 seconds
+selectCodeEditor("tictactoe.vhd", 350, 308); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 206, 317); // bP (w, cs)
+// Elapsed time: 39 seconds
+selectCodeEditor("tictactoe.vhd", 561, 209); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 573, 191); // bP (w, cs)
+// Elapsed time: 24 seconds
+selectCodeEditor("tictactoe.vhd", 286, 209); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 429, 313); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 288, 308); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 190, 279); // bP (w, cs)
+// Elapsed time: 142 seconds
+selectCodeEditor("tictactoe.vhd", 272, 341); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 272, 340, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("tictactoe.vhd", 264, 351); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 278, 359); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 278, 359, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("tictactoe.vhd", 276, 366); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 276, 366, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("tictactoe.vhd", 271, 379); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 271, 380, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("tictactoe.vhd", 408, 372); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 425, 350); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 175, 295); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 141, 299); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 215, 277); // bP (w, cs)
+// Elapsed time: 12 seconds
+selectCodeEditor("tictactoe.vhd", 286, 293); // bP (w, cs)
+typeControlKey((HResource) null, "tictactoe.vhd", 'c'); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 197, 451); // bP (w, cs)
+typeControlKey((HResource) null, "tictactoe.vhd", 'v'); // bP (w, cs)
+typeControlKey((HResource) null, "tictactoe.vhd", 'v'); // bP (w, cs)
+typeControlKey((HResource) null, "tictactoe.vhd", 'v'); // bP (w, cs)
+typeControlKey((HResource) null, "tictactoe.vhd", 'v'); // bP (w, cs)
+typeControlKey((HResource) null, "tictactoe.vhd", 'v'); // bP (w, cs)
+typeControlKey((HResource) null, "tictactoe.vhd", 'v'); // bP (w, cs)
+typeControlKey((HResource) null, "tictactoe.vhd", 'v'); // bP (w, cs)
+typeControlKey((HResource) null, "tictactoe.vhd", 'v'); // bP (w, cs)
+// Elapsed time: 73 seconds
+selectCodeEditor("tictactoe.vhd", 328, 366); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 316, 403); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 295, 447); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 308, 229); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 296, 264); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 308, 299); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 299, 318); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 300, 335); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 297, 354); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 297, 369); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 310, 404); // bP (w, cs)
+// Elapsed time: 11 seconds
+selectCodeEditor("tictactoe.vhd", 117, 300); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 129, 349); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 112, 295); // bP (w, cs)
+typeControlKey((HResource) null, "tictactoe.vhd", 'c'); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 261, 432); // bP (w, cs)
+typeControlKey((HResource) null, "tictactoe.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 181, 296); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 155, 300); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 172, 297); // bP (w, cs)
+// Elapsed time: 11 seconds
+selectCodeEditor("tictactoe.vhd", 264, 301); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 266, 299); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 327, 287); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 268, 295); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 372, 310); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 369, 301); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 229, 395); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 209, 415); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 226, 395); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 211, 414); // bP (w, cs)
+// Elapsed time: 12 seconds
+selectCodeEditor("tictactoe.vhd", 142, 317); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 324, 318); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 141, 314); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 643, 311); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 145, 344); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 154, 392); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 157, 338); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 139, 404); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 135, 420); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 194, 419); // bP (w, cs)
+// Elapsed time: 15 seconds
+selectCodeEditor("tictactoe.vhd", 143, 318); // bP (w, cs)
+typeControlKey((HResource) null, "tictactoe.vhd", 'c'); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 165, 443); // bP (w, cs)
+typeControlKey((HResource) null, "tictactoe.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 200, 351); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 152, 360); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 207, 370); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 202, 368); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 270, 371); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 270, 371, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("tictactoe.vhd", 278, 364); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 278, 364, false, false, false, false, true); // bP (w, cs) - Double Click
+typeControlKey((HResource) null, "tictactoe.vhd", 'c'); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 269, 385); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 269, 385, false, false, false, false, true); // bP (w, cs) - Double Click
+typeControlKey((HResource) null, "tictactoe.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 268, 401); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 268, 401, false, false, false, false, true); // bP (w, cs) - Double Click
+typeControlKey((HResource) null, "tictactoe.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 404, 383); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 425, 395); // bP (w, cs)
+// Elapsed time: 21 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// A (cs): Run Synthesis: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// am (cs): Save Project: addNotify
+dismissDialog("Run Synthesis"); // A (cs)
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (am)
+// bz (cs):  Save Constraints : addNotify
+// TclEventType: DG_GRAPH_STALE
+// bz (cs):  Resetting Runs : addNotify
+dismissDialog("Save Project"); // am (cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_MODIFY
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_MODIFY
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// bz (cs):  Starting Design Runs : addNotify
+// Tcl Message: launch_runs synth_1 -jobs 3 
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Tue Dec 15 09:36:57 2020] Launched synth_1... Run output will be captured here: C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/FinalProject/VGATest/VGATest.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 3 seconds
+dismissDialog("Starting Design Runs"); // bz (cs)
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// ag (cs): Synthesis Completed: addNotify
+// Elapsed time: 37 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ag)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// bz (cs):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -jobs 3 
+// Tcl Message: [Tue Dec 15 09:37:35 2020] Launched impl_1... Run output will be captured here: C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/FinalProject/VGATest/VGATest.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bz (cs)
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// ag (cs): Implementation Completed: addNotify
+// Elapsed time: 65 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "Generate Bitstream"); // a (Q, ag)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ag)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+dismissDialog("Implementation Completed"); // ag (cs)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 3 
+// Tcl Message: [Tue Dec 15 09:38:41 2020] Launched impl_1... Run output will be captured here: C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/FinalProject/VGATest/VGATest.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// ag (cs): Bitstream Generation Completed: addNotify
+// Elapsed time: 45 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ag)
+dismissDialog("Bitstream Generation Completed"); // ag (cs)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (ds, cs)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cs): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// bz (cs):  Program Device : addNotify
+dismissDialog("Program Device"); // bC (cs)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a100t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/FinalProject/VGATest/VGATest.runs/impl_1/vga_top.bit} [get_hw_devices xc7a100t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a100t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bz (cs)
+// Elapsed time: 22 seconds
+selectCodeEditor("tictactoe.vhd", 540, 383); // bP (w, cs)
+// HMemoryUtils.trashcanNow. Engine heap size: 3,458 MB. GUI used memory: 134 MB. Current time: 12/15/20, 9:42:30 AM EST
+// Elapsed time: 189 seconds
+selectCodeEditor("tictactoe.vhd", 181, 452); // bP (w, cs)
+selectButton(RDIResourceCommand.RDICommands_LINE_COMMENT, (String) null); // E (g, cs)
+selectCodeEditor("tictactoe.vhd", 261, 170); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 212, 349); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 167, 383); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 189, 376); // bP (w, cs)
+// Elapsed time: 38 seconds
+selectCodeEditor("tictactoe.vhd", 229, 256); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 229, 256); // bP (w, cs)
+// Elapsed time: 18 seconds
+selectCodeEditor("tictactoe.vhd", 118, 246); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 126, 314); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 236, 291); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 257, 318); // bP (w, cs)
+// Elapsed time: 30 seconds
+selectCodeEditor("tictactoe.vhd", 114, 372); // bP (w, cs)
+// Elapsed time: 29 seconds
+selectCodeEditor("tictactoe.vhd", 149, 442); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 157, 437); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 29, 392); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 14, 377); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 40, 384); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 12, 384); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 30, 384); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 58, 388); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 138, 346); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 151, 333); // bP (w, cs)
+// Elapsed time: 133 seconds
+selectCodeEditor("tictactoe.vhd", 29, 197); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 209, 215); // bP (w, cs)
+// Elapsed time: 20 seconds
+selectCodeEditor("tictactoe.vhd", 322, 303); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 821, 281); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 661, 272); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 88, 296); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 86, 296, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("tictactoe.vhd", 81, 299); // bP (w, cs)
+// Elapsed time: 16 seconds
+selectCodeEditor("tictactoe.vhd", 186, 298); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 298, 349); // bP (w, cs)
+// Elapsed time: 27 seconds
+selectCodeEditor("tictactoe.vhd", 54, 76); // bP (w, cs)
+typeControlKey((HResource) null, "tictactoe.vhd", 'c'); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 176, 398); // bP (w, cs)
+typeControlKey((HResource) null, "tictactoe.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 75, 371); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 79, 362); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 85, 374); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 84, 363); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 85, 379); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 85, 397); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 372, 407); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 179, 436); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 204, 422); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 177, 429); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 254, 370); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 254, 370, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("tictactoe.vhd", 458, 381); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 252, 368); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 252, 368, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("tictactoe.vhd", 252, 364); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 252, 364, false, false, false, false, true); // bP (w, cs) - Double Click
+typeControlKey((HResource) null, "tictactoe.vhd", 'c'); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 248, 388); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 248, 388, false, false, false, false, true); // bP (w, cs) - Double Click
+typeControlKey((HResource) null, "tictactoe.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 247, 402); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 247, 402, false, false, false, false, true); // bP (w, cs) - Double Click
+typeControlKey((HResource) null, "tictactoe.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 403, 386); // bP (w, cs)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// A (cs): Run Synthesis: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// am (cs): Save Project: addNotify
+dismissDialog("Run Synthesis"); // A (cs)
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (am)
+// bz (cs):  Save Constraints : addNotify
+// TclEventType: DG_GRAPH_STALE
+// bz (cs):  Resetting Runs : addNotify
+dismissDialog("Save Project"); // am (cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_MODIFY
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_MODIFY
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// bz (cs):  Starting Design Runs : addNotify
+// Tcl Message: launch_runs synth_1 -jobs 3 
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Tue Dec 15 09:49:41 2020] Launched synth_1... Run output will be captured here: C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/FinalProject/VGATest/VGATest.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 3 seconds
+dismissDialog("Starting Design Runs"); // bz (cs)
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// ag (cs): Synthesis Completed: addNotify
+// Elapsed time: 39 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ag)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// bz (cs):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -jobs 3 
+// Tcl Message: [Tue Dec 15 09:50:21 2020] Launched impl_1... Run output will be captured here: C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/FinalProject/VGATest/VGATest.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bz (cs)
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// ag (cs): Implementation Completed: addNotify
+// Elapsed time: 65 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "Generate Bitstream"); // a (Q, ag)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ag)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+dismissDialog("Implementation Completed"); // ag (cs)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 3 
+// Tcl Message: [Tue Dec 15 09:51:28 2020] Launched impl_1... Run output will be captured here: C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/FinalProject/VGATest/VGATest.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// ag (cs): Bitstream Generation Completed: addNotify
+// Elapsed time: 47 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ag)
+dismissDialog("Bitstream Generation Completed"); // ag (cs)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (ds, cs)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cs): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// bz (cs):  Program Device : addNotify
+dismissDialog("Program Device"); // bC (cs)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a100t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/FinalProject/VGATest/VGATest.runs/impl_1/vga_top.bit} [get_hw_devices xc7a100t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a100t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bz (cs)
+// Elapsed time: 19 seconds
+selectCodeEditor("tictactoe.vhd", 110, 233); // bP (w, cs)
+selectButton(RDIResourceCommand.RDICommands_LINE_COMMENT, (String) null); // E (g, cs)
+selectCodeEditor("tictactoe.vhd", 317, 262); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 309, 317); // bP (w, cs)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// A (cs): Run Synthesis: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// am (cs): Save Project: addNotify
+dismissDialog("Run Synthesis"); // A (cs)
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (am)
+// bz (cs):  Save Constraints : addNotify
+// TclEventType: DG_GRAPH_STALE
+// bz (cs):  Resetting Runs : addNotify
+dismissDialog("Save Project"); // am (cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_MODIFY
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_MODIFY
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// bz (cs):  Starting Design Runs : addNotify
+// Tcl Message: launch_runs synth_1 -jobs 3 
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Tue Dec 15 09:52:53 2020] Launched synth_1... Run output will be captured here: C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/FinalProject/VGATest/VGATest.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 3 seconds
+dismissDialog("Starting Design Runs"); // bz (cs)
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// ag (cs): Synthesis Completed: addNotify
+// Elapsed time: 41 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ag)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// bz (cs):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -jobs 3 
+// Tcl Message: [Tue Dec 15 09:53:35 2020] Launched impl_1... Run output will be captured here: C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/FinalProject/VGATest/VGATest.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bz (cs)
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// ag (cs): Implementation Completed: addNotify
+// Elapsed time: 67 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "Generate Bitstream"); // a (Q, ag)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ag)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+dismissDialog("Implementation Completed"); // ag (cs)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 3 
+// Tcl Message: [Tue Dec 15 09:54:44 2020] Launched impl_1... Run output will be captured here: C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/FinalProject/VGATest/VGATest.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// ag (cs): Bitstream Generation Completed: addNotify
+// Elapsed time: 47 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ag)
+dismissDialog("Bitstream Generation Completed"); // ag (cs)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (ds, cs)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cs): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// bz (cs):  Program Device : addNotify
+dismissDialog("Program Device"); // bC (cs)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a100t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/FinalProject/VGATest/VGATest.runs/impl_1/vga_top.bit} [get_hw_devices xc7a100t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a100t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bz (cs)
+// Elapsed time: 51 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (ds, cs)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cs): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// bz (cs):  Program Device : addNotify
+dismissDialog("Program Device"); // bC (cs)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a100t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/FinalProject/VGATest/VGATest.runs/impl_1/vga_top.bit} [get_hw_devices xc7a100t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a100t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bz (cs)
+// Elapsed time: 39 seconds
+selectCodeEditor("tictactoe.vhd", 171, 160); // bP (w, cs)
+typeControlKey((HResource) null, "tictactoe.vhd", 'c'); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 318, 167); // bP (w, cs)
+typeControlKey((HResource) null, "tictactoe.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 213, 235); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 430, 291); // bP (w, cs)
+// Elapsed time: 147 seconds
+selectCodeEditor("tictactoe.vhd", 112, 142); // bP (w, cs)
+typeControlKey((HResource) null, "tictactoe.vhd", 'c'); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 404, 186); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 409, 209); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 326, 224); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 52, 250); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 55, 249); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 114, 245); // bP (w, cs)
+// HMemoryUtils.trashcanNow. Engine heap size: 3,458 MB. GUI used memory: 134 MB. Current time: 12/15/20, 10:12:30 AM EST
+// Elapsed time: 1113 seconds
+selectCodeEditor("tictactoe.vhd", 88, 252); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 110, 248); // bP (w, cs)
+// Elapsed time: 16 seconds
+selectCodeEditor("tictactoe.vhd", 112, 202); // bP (w, cs)
+typeControlKey((HResource) null, "tictactoe.vhd", 'c'); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 209, 169); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 129, 57); // bP (w, cs)
+typeControlKey((HResource) null, "tictactoe.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 278, 57); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 299, 197); // bP (w, cs)
+selectCodeEditor("tictactoe.vhd", 255, 77); // bP (w, cs)

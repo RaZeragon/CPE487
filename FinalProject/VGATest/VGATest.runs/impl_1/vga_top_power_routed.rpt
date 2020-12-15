@@ -1,7 +1,7 @@
 Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2020.1.1 (win64) Build 2960000 Wed Aug  5 22:57:20 MDT 2020
-| Date             : Tue Dec 15 09:38:36 2020
+| Date             : Tue Dec 15 09:54:37 2020
 | Host             : RaZeragon running 64-bit major release  (build 9200)
 | Command          : report_power -file vga_top_power_routed.rpt -pb vga_top_power_summary_routed.pb -rpx vga_top_power_routed.rpx
 | Design           : vga_top
@@ -33,7 +33,7 @@ Table of Contents
 | Total On-Chip Power (W)  | 0.225        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
-| Dynamic (W)              | 0.127        |
+| Dynamic (W)              | 0.128        |
 | Device Static (W)        | 0.097        |
 | Effective TJA (C/W)      | 4.6          |
 | Max Ambient (C)          | 84.0         |
@@ -53,13 +53,13 @@ Table of Contents
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
 | Clocks         |     0.002 |        5 |       --- |             --- |
-| Slice Logic    |     0.001 |     1247 |       --- |             --- |
-|   LUT as Logic |     0.001 |      624 |     63400 |            0.98 |
+| Slice Logic    |     0.001 |     1264 |       --- |             --- |
+|   LUT as Logic |     0.001 |      635 |     63400 |            1.00 |
 |   CARRY4       |    <0.001 |      150 |     15850 |            0.95 |
 |   Register     |    <0.001 |      210 |    126800 |            0.17 |
-|   F7/F8 Muxes  |    <0.001 |        4 |     63400 |           <0.01 |
+|   F7/F8 Muxes  |    <0.001 |        7 |     63400 |            0.01 |
 |   Others       |     0.000 |       12 |       --- |             --- |
-| Signals        |    <0.001 |      536 |       --- |             --- |
+| Signals        |    <0.001 |      544 |       --- |             --- |
 | MMCM           |     0.123 |        1 |         6 |           16.67 |
 | I/O            |    <0.001 |       23 |       210 |           10.95 |
 | Static Power   |     0.097 |          |           |                 |
@@ -144,7 +144,7 @@ Table of Contents
 +------------------+-----------+
 | Name             | Power (W) |
 +------------------+-----------+
-| vga_top          |     0.127 |
+| vga_top          |     0.128 |
 |   clk_wiz_0_inst |     0.124 |
 |     U0           |     0.124 |
 |   vga_driver     |     0.002 |

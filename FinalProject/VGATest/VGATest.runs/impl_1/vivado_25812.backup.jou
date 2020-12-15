@@ -2,8 +2,8 @@
 # Vivado v2020.1.1 (64-bit)
 # SW Build 2960000 on Wed Aug  5 22:57:20 MDT 2020
 # IP Build 2956692 on Thu Aug  6 01:41:30 MDT 2020
-# Start of session at: Tue Dec 15 08:26:52 2020
-# Process ID: 8444
+# Start of session at: Tue Dec 15 09:50:28 2020
+# Process ID: 25812
 # Current directory: C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/FinalProject/VGATest/VGATest.runs/impl_1
 # Command line: vivado.exe -log vga_top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source vga_top.tcl -notrace
 # Log file: C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/FinalProject/VGATest/VGATest.runs/impl_1/vga_top.vdi

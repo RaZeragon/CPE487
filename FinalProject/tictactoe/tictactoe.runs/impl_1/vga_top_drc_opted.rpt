@@ -1,7 +1,7 @@
 Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 ------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2020.1.1 (win64) Build 2960000 Wed Aug  5 22:57:20 MDT 2020
-| Date         : Tue Nov 24 03:21:59 2020
+| Date         : Tue Dec 15 12:50:58 2020
 | Host         : RaZeragon running 64-bit major release  (build 9200)
 | Command      : report_drc -file vga_top_drc_opted.rpt -pb vga_top_drc_opted.pb -rpx vga_top_drc_opted.rpx
 | Design       : vga_top
@@ -24,13 +24,14 @@ Table of Contents
       Design limits: <entire design considered>
            Ruledeck: default
              Max violations: <unlimited>
-             Violations found: 2
-+----------+----------+-----------------------------------------------------+------------+
-| Rule     | Severity | Description                                         | Violations |
-+----------+----------+-----------------------------------------------------+------------+
-| AVAL-139 | Warning  | Phase shift check                                   | 1          |
-| CFGBVS-1 | Warning  | Missing CFGBVS and CONFIG_VOLTAGE Design Properties | 1          |
-+----------+----------+-----------------------------------------------------+------------+
+             Violations found: 3
++-------------+----------+-------------------------------------------------------------+------------+
+| Rule        | Severity | Description                                                 | Violations |
++-------------+----------+-------------------------------------------------------------+------------+
+| AVAL-139    | Warning  | Phase shift check                                           | 1          |
+| CFGBVS-1    | Warning  | Missing CFGBVS and CONFIG_VOLTAGE Design Properties         | 1          |
+| PLHOLDVIO-2 | Warning  | Non-Optimal connections which could lead to hold violations | 1          |
++-------------+----------+-------------------------------------------------------------+------------+
 
 2. REPORT DETAILS
 -----------------
@@ -50,6 +51,18 @@ Neither the CFGBVS nor CONFIG_VOLTAGE voltage property is set in the current_des
  #where value2 is the voltage provided to configuration bank 0
 
 Refer to the device configuration user guide for more information.
+Related violations: <none>
+
+PLHOLDVIO-2#1 Warning
+Non-Optimal connections which could lead to hold violations  
+A LUT input/TURN[8]_i_2 is driving clock pin of 29 cells. This could lead to large hold time violations. Involved cells are:
+ttt_logic/END_STATE_reg[0], ttt_logic/O_GAME_BOARD_reg[0],
+ttt_logic/O_GAME_BOARD_reg[1], ttt_logic/O_GAME_BOARD_reg[2],
+ttt_logic/O_GAME_BOARD_reg[3], ttt_logic/O_GAME_BOARD_reg[4],
+ttt_logic/O_GAME_BOARD_reg[5], ttt_logic/O_GAME_BOARD_reg[6],
+ttt_logic/O_GAME_BOARD_reg[7], ttt_logic/O_GAME_BOARD_reg[8],
+ttt_logic/PLAYER_reg, ttt_logic/TURN_reg[0], ttt_logic/TURN_reg[1],
+ttt_logic/TURN_reg[2], ttt_logic/TURN_reg[3] (the first 15 of 29 listed)
 Related violations: <none>
 
 

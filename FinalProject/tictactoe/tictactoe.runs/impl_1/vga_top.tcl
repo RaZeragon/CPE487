@@ -123,7 +123,6 @@ set ACTIVE_STEP write_bitstream
 set rc [catch {
   create_msg_db write_bitstream.pb
   set_param chipscope.maxJobs 1
-  set_param xicom.use_bs_reader 1
   open_checkpoint vga_top_routed.dcp
   set_property webtalk.parent_dir {C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/FinalProject/tictactoe/tictactoe.cache/wt} [current_project]
 set_property TOP vga_top [current_fileset]

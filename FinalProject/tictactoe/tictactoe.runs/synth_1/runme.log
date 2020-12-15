@@ -17,21 +17,22 @@ INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100
 INFO: [Device 21-403] Loading part xc7a100tcsg324-1
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 20164
+INFO: [Synth 8-7075] Helper process launched with PID 26816
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1016.031 ; gain = 0.000
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1017.047 ; gain = 0.000
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'vga_top' [C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/FinalProject/tictactoe/tictactoe.srcs/sources_1/new/vga_top.vhd:16]
-INFO: [Synth 8-3491] module 'ball' declared at 'C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/FinalProject/tictactoe/tictactoe.srcs/sources_1/new/ball.vhd:6' bound to instance 'add_ball' of component 'ball' [C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/FinalProject/tictactoe/tictactoe.srcs/sources_1/new/vga_top.vhd:63]
-INFO: [Synth 8-638] synthesizing module 'ball' [C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/FinalProject/tictactoe/tictactoe.srcs/sources_1/new/ball.vhd:17]
-INFO: [Synth 8-256] done synthesizing module 'ball' (1#1) [C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/FinalProject/tictactoe/tictactoe.srcs/sources_1/new/ball.vhd:17]
-INFO: [Synth 8-3491] module 'vga_sync' declared at 'C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/FinalProject/tictactoe/tictactoe.srcs/sources_1/new/vga_sync.vhd:5' bound to instance 'vga_driver' of component 'vga_sync' [C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/FinalProject/tictactoe/tictactoe.srcs/sources_1/new/vga_top.vhd:74]
-INFO: [Synth 8-638] synthesizing module 'vga_sync' [C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/FinalProject/tictactoe/tictactoe.srcs/sources_1/new/vga_sync.vhd:21]
-INFO: [Synth 8-256] done synthesizing module 'vga_sync' (2#1) [C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/FinalProject/tictactoe/tictactoe.srcs/sources_1/new/vga_sync.vhd:21]
-INFO: [Synth 8-3491] module 'clk_wiz_0' declared at 'C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/FinalProject/tictactoe/tictactoe.srcs/sources_1/new/clk_wiz_0.vhd:74' bound to instance 'clk_wiz_0_inst' of component 'clk_wiz_0' [C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/FinalProject/tictactoe/tictactoe.srcs/sources_1/new/vga_top.vhd:91]
-INFO: [Synth 8-638] synthesizing module 'clk_wiz_0' [C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/FinalProject/tictactoe/tictactoe.srcs/sources_1/new/clk_wiz_0.vhd:83]
-INFO: [Synth 8-3491] module 'clk_wiz_0_clk_wiz' declared at 'C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/FinalProject/tictactoe/tictactoe.srcs/sources_1/new/clk_wiz_0_clk_wiz.vhd:63' bound to instance 'U0' of component 'clk_wiz_0_clk_wiz' [C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/FinalProject/tictactoe/tictactoe.srcs/sources_1/new/clk_wiz_0.vhd:98]
-INFO: [Synth 8-638] synthesizing module 'clk_wiz_0_clk_wiz' [C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/FinalProject/tictactoe/tictactoe.srcs/sources_1/new/clk_wiz_0_clk_wiz.vhd:72]
+INFO: [Synth 8-638] synthesizing module 'vga_top' [C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/FinalProject/VGATest/VGATest.srcs/sources_1/new/vga_top.vhd:22]
+INFO: [Synth 8-3491] module 'vga_sync' declared at 'C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/FinalProject/VGATest/VGATest.srcs/sources_1/new/vga_sync.vhd:12' bound to instance 'vga_driver' of component 'vga_sync' [C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/FinalProject/VGATest/VGATest.srcs/sources_1/new/vga_top.vhd:85]
+INFO: [Synth 8-638] synthesizing module 'vga_sync' [C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/FinalProject/VGATest/VGATest.srcs/sources_1/new/vga_sync.vhd:23]
+INFO: [Synth 8-256] done synthesizing module 'vga_sync' (1#1) [C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/FinalProject/VGATest/VGATest.srcs/sources_1/new/vga_sync.vhd:23]
+INFO: [Synth 8-3491] module 'tictactoe' declared at 'C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/FinalProject/VGATest/VGATest.srcs/sources_1/new/tictactoe.vhd:12' bound to instance 'ttt_logic' of component 'tictactoe' [C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/FinalProject/VGATest/VGATest.srcs/sources_1/new/vga_top.vhd:101]
+INFO: [Synth 8-638] synthesizing module 'tictactoe' [C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/FinalProject/VGATest/VGATest.srcs/sources_1/new/tictactoe.vhd:24]
+WARNING: [Synth 8-614] signal 'TEST' is read in the process but is not in the sensitivity list [C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/FinalProject/VGATest/VGATest.srcs/sources_1/new/tictactoe.vhd:147]
+INFO: [Synth 8-256] done synthesizing module 'tictactoe' (2#1) [C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/FinalProject/VGATest/VGATest.srcs/sources_1/new/tictactoe.vhd:24]
+INFO: [Synth 8-3491] module 'clk_wiz_0' declared at 'C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/Labs/Lab 3/clk_wiz_0.vhd:81' bound to instance 'clk_wiz_0_inst' of component 'clk_wiz_0' [C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/FinalProject/VGATest/VGATest.srcs/sources_1/new/vga_top.vhd:116]
+INFO: [Synth 8-638] synthesizing module 'clk_wiz_0' [C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/Labs/Lab 3/clk_wiz_0.vhd:90]
+INFO: [Synth 8-3491] module 'clk_wiz_0_clk_wiz' declared at 'C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/Labs/Lab 3/clk_wiz_0_clk_wiz.vhd:70' bound to instance 'U0' of component 'clk_wiz_0_clk_wiz' [C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/Labs/Lab 3/clk_wiz_0.vhd:105]
+INFO: [Synth 8-638] synthesizing module 'clk_wiz_0_clk_wiz' [C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/Labs/Lab 3/clk_wiz_0_clk_wiz.vhd:79]
 	Parameter BANDWIDTH bound to: OPTIMIZED - type: string 
 	Parameter CLKFBOUT_MULT_F bound to: 10.125000 - type: double 
 	Parameter CLKFBOUT_PHASE bound to: 0.000000 - type: double 
@@ -80,71 +81,103 @@ INFO: [Synth 8-638] synthesizing module 'clk_wiz_0_clk_wiz' [C:/Users/Kevin Ward
 	Parameter SS_MODE bound to: CENTER_HIGH - type: string 
 	Parameter SS_MOD_PERIOD bound to: 10000 - type: integer 
 	Parameter STARTUP_WAIT bound to: 0 - type: bool 
-INFO: [Synth 8-113] binding component instance 'mmcm_adv_inst' to cell 'MMCME2_ADV' [C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/FinalProject/tictactoe/tictactoe.srcs/sources_1/new/clk_wiz_0_clk_wiz.vhd:114]
-INFO: [Synth 8-113] binding component instance 'clkf_buf' to cell 'BUFG' [C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/FinalProject/tictactoe/tictactoe.srcs/sources_1/new/clk_wiz_0_clk_wiz.vhd:176]
-INFO: [Synth 8-113] binding component instance 'clkout1_buf' to cell 'BUFG' [C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/FinalProject/tictactoe/tictactoe.srcs/sources_1/new/clk_wiz_0_clk_wiz.vhd:183]
-INFO: [Synth 8-256] done synthesizing module 'clk_wiz_0_clk_wiz' (3#1) [C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/FinalProject/tictactoe/tictactoe.srcs/sources_1/new/clk_wiz_0_clk_wiz.vhd:72]
-INFO: [Synth 8-256] done synthesizing module 'clk_wiz_0' (4#1) [C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/FinalProject/tictactoe/tictactoe.srcs/sources_1/new/clk_wiz_0.vhd:83]
-INFO: [Synth 8-256] done synthesizing module 'vga_top' (5#1) [C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/FinalProject/tictactoe/tictactoe.srcs/sources_1/new/vga_top.vhd:16]
+INFO: [Synth 8-113] binding component instance 'mmcm_adv_inst' to cell 'MMCME2_ADV' [C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/Labs/Lab 3/clk_wiz_0_clk_wiz.vhd:121]
+INFO: [Synth 8-113] binding component instance 'clkf_buf' to cell 'BUFG' [C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/Labs/Lab 3/clk_wiz_0_clk_wiz.vhd:183]
+INFO: [Synth 8-113] binding component instance 'clkout1_buf' to cell 'BUFG' [C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/Labs/Lab 3/clk_wiz_0_clk_wiz.vhd:190]
+INFO: [Synth 8-256] done synthesizing module 'clk_wiz_0_clk_wiz' (3#1) [C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/Labs/Lab 3/clk_wiz_0_clk_wiz.vhd:79]
+INFO: [Synth 8-256] done synthesizing module 'clk_wiz_0' (4#1) [C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/Labs/Lab 3/clk_wiz_0.vhd:90]
+INFO: [Synth 8-3491] module 'keypad' declared at 'C:/Users/Kevin Ward/Desktop/keypad.vhd:12' bound to instance 'input' of component 'keypad' [C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/FinalProject/VGATest/VGATest.srcs/sources_1/new/vga_top.vhd:122]
+INFO: [Synth 8-638] synthesizing module 'keypad' [C:/Users/Kevin Ward/Desktop/keypad.vhd:22]
+INFO: [Synth 8-256] done synthesizing module 'keypad' (5#1) [C:/Users/Kevin Ward/Desktop/keypad.vhd:22]
+INFO: [Synth 8-256] done synthesizing module 'vga_top' (6#1) [C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/FinalProject/VGATest/VGATest.srcs/sources_1/new/vga_top.vhd:22]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1016.031 ; gain = 0.000
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1017.047 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1016.031 ; gain = 0.000
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1017.047 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1016.031 ; gain = 0.000
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1017.047 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1016.031 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.013 . Memory (MB): peak = 1017.047 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/FinalProject/tictactoe/tictactoe.srcs/constrs_1/new/vga_top.xdc]
-Finished Parsing XDC File [C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/FinalProject/tictactoe/tictactoe.srcs/constrs_1/new/vga_top.xdc]
-INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/FinalProject/tictactoe/tictactoe.srcs/constrs_1/new/vga_top.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/vga_top_propImpl.xdc].
+Parsing XDC File [C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/FinalProject/VGATest/VGATest.srcs/constrs_1/new/vga_top.xdc]
+CRITICAL WARNING: [Designutils 20-1307] Command '--' is not supported in the xdc constraint file. [C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/FinalProject/VGATest/VGATest.srcs/constrs_1/new/vga_top.xdc:1]
+CRITICAL WARNING: [Designutils 20-1307] Command '--' is not supported in the xdc constraint file. [C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/FinalProject/VGATest/VGATest.srcs/constrs_1/new/vga_top.xdc:2]
+CRITICAL WARNING: [Designutils 20-1307] Command '--' is not supported in the xdc constraint file. [C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/FinalProject/VGATest/VGATest.srcs/constrs_1/new/vga_top.xdc:3]
+CRITICAL WARNING: [Designutils 20-1307] Command '--' is not supported in the xdc constraint file. [C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/FinalProject/VGATest/VGATest.srcs/constrs_1/new/vga_top.xdc:4]
+CRITICAL WARNING: [Designutils 20-1307] Command '--' is not supported in the xdc constraint file. [C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/FinalProject/VGATest/VGATest.srcs/constrs_1/new/vga_top.xdc:5]
+CRITICAL WARNING: [Designutils 20-1307] Command '--' is not supported in the xdc constraint file. [C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/FinalProject/VGATest/VGATest.srcs/constrs_1/new/vga_top.xdc:6]
+Finished Parsing XDC File [C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/FinalProject/VGATest/VGATest.srcs/constrs_1/new/vga_top.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/FinalProject/VGATest/VGATest.srcs/constrs_1/new/vga_top.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/vga_top_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/vga_top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 INFO: [Timing 38-2] Deriving generated clocks
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1016.031 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1017.047 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1016.031 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1017.047 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1016.031 ; gain = 0.000
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1017.047 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a100tcsg324-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1016.031 ; gain = 0.000
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1017.047 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1016.031 ; gain = 0.000
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1017.047 ; gain = 0.000
 ---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'CURR_COL_reg' in module 'keypad'
+WARNING: [Synth 8-327] inferring latch for variable 'R_OUT_reg' [C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/FinalProject/VGATest/VGATest.srcs/sources_1/new/tictactoe.vhd:151]
+WARNING: [Synth 8-327] inferring latch for variable 'G_OUT_reg' [C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/FinalProject/VGATest/VGATest.srcs/sources_1/new/tictactoe.vhd:152]
+WARNING: [Synth 8-327] inferring latch for variable 'B_OUT_reg' [C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/FinalProject/VGATest/VGATest.srcs/sources_1/new/tictactoe.vhd:153]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  iSTATE |                             0001 |                             1110
+                 iSTATE0 |                             0010 |                             1101
+                 iSTATE1 |                             0100 |                             1011
+                 iSTATE2 |                             1000 |                             0111
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'CURR_COL_reg' using encoding 'one-hot' in module 'keypad'
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1016.031 ; gain = 0.000
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1017.047 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
 ---------------------------------------------------------------------------------
 Detailed RTL Component Info : 
 +---Adders : 
-	   2 Input   11 Bit       Adders := 2     
+	   2 Input   32 Bit       Adders := 7     
 +---Registers : 
-	               11 Bit    Registers := 4     
-	                1 Bit    Registers := 5     
+	               32 Bit    Registers := 4     
+	                9 Bit    Registers := 3     
+	                4 Bit    Registers := 7     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	  40 Input   40 Bit        Muxes := 3     
+	   2 Input   32 Bit        Muxes := 9     
+	   2 Input    4 Bit        Muxes := 168   
+	   4 Input    4 Bit        Muxes := 1     
+	  17 Input    4 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 16    
 ---------------------------------------------------------------------------------
 Finished RTL Component Statistics 
 ---------------------------------------------------------------------------------
@@ -161,25 +194,44 @@ Finished Part Resource Summary
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1016.031 ; gain = 0.000
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1017.047 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM: Preliminary Mapping	Report
++------------+-------------+---------------+----------------+
+|Module Name | RTL Object  | Depth x Width | Implemented As | 
++------------+-------------+---------------+----------------+
+|tictactoe   | O_SPRITE[0] | 64x11         | LUT            | 
+|tictactoe   | O_SPRITE[0] | 64x11         | LUT            | 
+|tictactoe   | O_SPRITE[0] | 64x11         | LUT            | 
+|tictactoe   | O_SPRITE[0] | 64x11         | LUT            | 
+|tictactoe   | O_SPRITE[0] | 64x11         | LUT            | 
+|tictactoe   | O_SPRITE[0] | 64x11         | LUT            | 
++------------+-------------+---------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1016.031 ; gain = 0.000
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 1017.047 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1016.031 ; gain = 0.000
+Finished Timing Optimization : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 1017.047 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1016.031 ; gain = 0.000
+Finished Technology Mapping : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 1017.047 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -197,37 +249,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1016.031 ; gain = 0.000
+Finished IO Insertion : Time (s): cpu = 00:00:28 ; elapsed = 00:00:28 . Memory (MB): peak = 1017.047 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1016.031 ; gain = 0.000
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:28 ; elapsed = 00:00:28 . Memory (MB): peak = 1017.047 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1016.031 ; gain = 0.000
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1017.047 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1016.031 ; gain = 0.000
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1017.047 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1016.031 ; gain = 0.000
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1017.047 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1016.031 ; gain = 0.000
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1017.047 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -243,38 +295,44 @@ Report Cell Usage:
 +------+-----------+------+
 |      |Cell       |Count |
 +------+-----------+------+
-|1     |BUFG       |     2|
-|2     |LUT1       |     3|
-|3     |LUT2       |     7|
-|4     |LUT3       |    10|
-|5     |LUT4       |    12|
-|6     |LUT5       |    14|
-|7     |LUT6       |    21|
-|8     |MMCME2_ADV |     1|
-|9     |FDRE       |    47|
-|10    |IBUF       |     1|
-|11    |OBUF       |    10|
+|1     |BUFG       |     3|
+|2     |CARRY4     |   186|
+|3     |LUT1       |    30|
+|4     |LUT2       |   766|
+|5     |LUT3       |   170|
+|6     |LUT4       |    71|
+|7     |LUT5       |    41|
+|8     |LUT6       |   267|
+|9     |MMCME2_ADV |     1|
+|10    |MUXF7      |    21|
+|11    |MUXF8      |     6|
+|12    |FDRE       |   198|
+|13    |LD         |     3|
+|14    |IBUF       |     5|
+|15    |OBUF       |    18|
 +------+-----------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1016.031 ; gain = 0.000
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1017.047 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:14 ; elapsed = 00:00:19 . Memory (MB): peak = 1016.031 ; gain = 0.000
-Synthesis Optimization Complete : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1016.031 ; gain = 0.000
+Synthesis finished with 0 errors, 0 critical warnings and 3 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:20 ; elapsed = 00:00:27 . Memory (MB): peak = 1017.047 ; gain = 0.000
+Synthesis Optimization Complete : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1017.047 ; gain = 0.000
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1016.031 ; gain = 0.000
-INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.018 . Memory (MB): peak = 1017.047 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 217 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'vga_top' is not ideal for floorplanning, since the cellview 'vga_sync' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
 INFO: [Project 1-570] Preparing netlist for logic optimization
-INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1016.031 ; gain = 0.000
+INFO: [Opt 31-138] Pushed 1 inverter(s) to 3 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1017.047 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
-No Unisim elements were transformed.
+  A total of 3 instances were transformed.
+  LD => LDCE (inverted pins: G): 3 instances
 
 INFO: [Common 17-83] Releasing license: Synthesis
-35 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+40 Infos, 5 Warnings, 6 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 1016.031 ; gain = 0.000
+synth_design: Time (s): cpu = 00:00:33 ; elapsed = 00:00:35 . Memory (MB): peak = 1017.047 ; gain = 0.000
 INFO: [Common 17-1381] The checkpoint 'C:/Users/Kevin Ward/Desktop/Coding/Projects/CPE487/FinalProject/tictactoe/tictactoe.runs/synth_1/vga_top.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file vga_top_utilization_synth.rpt -pb vga_top_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Tue Nov 24 03:21:27 2020...
+INFO: [Common 17-206] Exiting Vivado at Tue Dec 15 12:50:25 2020...
